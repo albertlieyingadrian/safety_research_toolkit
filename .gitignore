@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# Environment variables / secrets
+.env.local
+*.env
+secrets.json
+api_keys.*
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# ML artifacts
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.gguf
+checkpoints/
+runs/
+wandb/
+mlruns/
+lightning_logs/
+
+# Data
+data/
+datasets/
+*.jsonl
+*.parquet
+*.arrow
+*.csv
+*.hdf5
+*.h5
+
+# Outputs / results
+outputs/
+results/
+logs/
+*.log
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
